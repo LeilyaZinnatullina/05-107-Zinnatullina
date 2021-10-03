@@ -4,7 +4,7 @@
 using namespace std;
 int main()
 {
-    Setlocale(LC_ALL, "Russian");
+    setlocale(LC_ALL, "Russian");
     int a, b;
     cin >> a >> b;
     if (b < 1 || b>12 || a < 1 || a>31 || (b == 2 && a > 28) || ((b == 4 || b == 6 || b == 9 || b == 11) && a > 30)) {
